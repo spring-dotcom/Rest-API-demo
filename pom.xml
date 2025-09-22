@@ -5,21 +5,20 @@
     <groupId>com.example</groupId>
     <artifactId>java-rest-api-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.5</version>
     </parent>
+
     <properties>
         <java.version>11</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-    </dependencies>
-</ copy and paste the above code into your `pom.xml`, save, and try again:**
-
-```bash
-mvn spring-boot:run
+   project>
