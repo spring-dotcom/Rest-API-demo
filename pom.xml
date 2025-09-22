@@ -6,11 +6,10 @@
     <artifactId>java-rest-api-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.5</version>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.2.5</version>
     </parent>
-
     <properties>
         <java.version>11</java.version>
     </properties>
