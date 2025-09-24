@@ -1,9 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
+           <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.12</version> <!-- You can update this to the latest stable version -->
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
 
     <groupId>com.example</groupId>
     <artifactId>rest-api-demo</artifactId>
@@ -11,14 +14,14 @@
     <packaging>jar</packaging>
 
     <name>Rest API Demo</name>
-    <description>Spring Boot REST API project</description>
-
-    <properties>
-        <java.version>11</java.version>
+   .version>11</java.version>
     </properties>
 
     <dependencies>
-        <!-- Spring Boot <artifactId>spring-boot-starter-web</artifactId>
+        <!-- Spring Boot Web Starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <!-- Spring Boot Test Starter -->
@@ -31,7 +34,7 @@
 
     <build>
         <plugins>
-            <!-- Maven Compiler Plugin for Java 11 -->
+            <!-- Maven Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -41,6 +44,4 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
-
-</project>
+   >
